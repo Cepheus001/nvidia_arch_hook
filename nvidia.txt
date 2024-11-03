@@ -1,5 +1,7 @@
 # This file needs to be placed in /etc/pacman.d/hooks/ and be called nvidia.hook
 
+# following package to be installed are: nvidia-dkms nvidia-settings libglvnd nvidia-utils opencl-nvidia lib32-opencl-nvidia lib32-libglvnd lib32-nvidia-utils
+
 [Trigger]
 Operation=Install
 Operation=Upgrade
